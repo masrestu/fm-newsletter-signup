@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-	const emailInput = document.querySelector("input")
+	const emailInput = document.getElementById("email")
 	const landingPage = document.querySelector(".landing-page")
 	const successPage = document.querySelector(".success-page")
 	const emailConfirm = document.getElementById("email-confirm")

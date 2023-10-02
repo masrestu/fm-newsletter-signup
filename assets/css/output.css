@@ -935,6 +935,14 @@ video {
     max-width: 32rem;
   }
 
+  .lg\:max-w-5xl {
+    max-width: 64rem;
+  }
+
+  .lg\:max-w-\[60rem\] {
+    max-width: 60rem;
+  }
+
   .lg\:grid-cols-desktop {
     grid-template-columns: 4fr 3fr;
   }
