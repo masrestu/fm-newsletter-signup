@@ -780,6 +780,10 @@ video {
   padding-top: 76%;
 }
 
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -898,6 +902,11 @@ video {
     margin-right: 1.5rem;
   }
 
+  .lg\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -941,6 +950,10 @@ video {
 
   .lg\:max-w-\[60rem\] {
     max-width: 60rem;
+  }
+
+  .lg\:max-w-\[58rem\] {
+    max-width: 58rem;
   }
 
   .lg\:grid-cols-desktop {
@@ -1005,7 +1018,52 @@ video {
     line-height: 1.5rem;
   }
 
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-\[3\.375rem\] {
+    font-size: 3.375rem;
+  }
+
+  .lg\:text-\[35rem\] {
+    font-size: 35rem;
+  }
+
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+
   .lg\:leading-\[3rem\] {
     line-height: 3rem;
+  }
+
+  .lg\:text-\[3\.375\] {
+    color: 3.375;
   }
 }
